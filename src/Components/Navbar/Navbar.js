@@ -21,6 +21,7 @@ import { Tooltip } from "@mui/material";
 import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import logo_dark from "../../assets/logo-dark.svg";
 import { Link } from "react-scroll";
+import { customer_support_api } from "../../utiles/constants";
 
 const drawerWidth = 240;
 
@@ -149,8 +150,8 @@ function Navs() {
                       to={item.id}
                       spy={true}
                       smooth={true}
-                      duration={700}
-                      offset={item.offset}
+                      duration={500}
+                      offset={-70}
                       onClick={handleDrawerClose}
                     >
                       {item.Name}
@@ -244,7 +245,7 @@ function Navs() {
         >
           <Button className="support_icon">
             <a
-              href="https://cloudifytests.atlassian.net/servicedesk/customer/portal/3"
+              href={customer_support_api}
               target={"_blank"}
               style={{
                 textTransform: "none",
