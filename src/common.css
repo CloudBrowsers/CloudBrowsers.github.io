@@ -27,6 +27,7 @@
   background-color: #eff7fa;
   cursor: pointer;
   margin-top: 10px;
+  font-family: sans-serif;
 }
 .sub-heading-text:hover {
   background-color: #469272;
@@ -36,20 +37,30 @@
   text-align: left;
   margin-top: 20px;
   font-size: 18px;
+  font-family: sans-serif;
 }
 .paragraph-contact-us {
   text-align: left;
   margin-top: 20px;
   font-size: 18px;
+  font-family: sans-serif;
 }
 .sub-para-text {
   text-align: center;
   margin-top: 20px;
   font-size: 16px;
+  font-family: sans-serif;
 }
 .MuiFormControl-root {
   margin-top: 10px !important;
 }
+.total_cost {
+  color: #b5b7b9;
+  font-size: 12px;
+  position: relative;
+  top: 5px;
+}
+
 @media screen and (max-width: 850px) {
   .sub-heading-text {
     margin-top: 20px;
