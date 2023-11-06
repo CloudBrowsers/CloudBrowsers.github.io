@@ -1,0 +1,39 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.language_section {
+  flex-direction: column;
+}
+.language_text {
+  background-color: black;
+  padding: 1rem;
+  font-size: 20px;
+  margin-top: 50px;
+  color: white;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+}
+.language_text_img {
+  padding: 1rem;
+  font-size: 20px;
+  margin-top: 50px;
+  color: white;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+}
+.snippit_data {
+  background-color: black;
+  padding: 1rem;
+  margin-top: 50px;
+  color: white;
+  border-radius: 5px;
+}
+
+@media (max-width: 640px) {
+  .grid-container {
+    grid-template-columns: 100%;
+  }
+}

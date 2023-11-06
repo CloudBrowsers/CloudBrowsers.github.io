@@ -1,0 +1,13 @@
+.header_text {
+  background-color: #123477;
+  color: white;
+  padding: 2rem 1.5rem;
+  font-size: 3rem;
+}
+@media (max-width: 640px) {
+  .header_text {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+}

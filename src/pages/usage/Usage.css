@@ -1,0 +1,34 @@
+.usgae_container {
+  background-color: #14295b;
+  color: #37a6d8;
+  padding: 2.5rem 1.5rem;
+  width: 50%;
+  line-height: 2em;
+}
+.usgae_container2 {
+  background-color: #001131;
+  color: #61e6fe;
+  padding: 2.5rem 1.5rem;
+  width: 50%;
+  line-height: 2em;
+}
+.star_data {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.title {
+  text-align: center;
+  margin-top: 2rem;
+}
+@media (max-width: 640px) {
+  .flex {
+    flex-direction: column;
+  }
+  .usgae_container {
+    width: 100%;
+  }
+  .usgae_container2 {
+    width: 100%;
+  }
+}

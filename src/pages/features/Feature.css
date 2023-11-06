@@ -1,0 +1,35 @@
+.feature_box {
+  padding: 2rem 2rem 3rem 2rem;
+  border-radius: 0px 0px 0px 25px;
+}
+
+.feature_box:hover {
+  background-color: #e9fcff;
+  animation: addShadow 0.2s ease-in-out 0.2s forwards;
+  -webkit-animation: addShadow 0.2s ease-in-out 0.2s forwards;
+}
+
+@keyframes addShadow {
+  to {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+  }
+}
+.Fea {
+  background-color: #e9fcff;
+  padding: 2.5rem 0rem 2.5rem 2rem;
+}
+.tures {
+  padding: 2.5rem 0rem 2rem 0rem;
+}
+
+@media (max-width: 640px) {
+  .feature_box {
+    width: 100%;
+  }
+  .Fea {
+    padding: 1rem 0rem 0rem 1rem;
+  }
+  .tures {
+    padding: 1rem 0rem 0rem 0rem;
+  }
+}

@@ -1,0 +1,15 @@
+.offerings_list {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.offerings_list::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.offerings_list > li {
+  transition: all 0.5s;
+}
+ul {
+  font-size: 1.2rem;
+}
