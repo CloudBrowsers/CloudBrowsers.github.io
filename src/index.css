@@ -93,11 +93,14 @@ code {
 }
 
 .common_button {
+  height: 47px;
   width: 100%;
   border-radius: 4px;
   color: white;
-  padding: 1.5rem 2rem 1.5rem 2rem;
   font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .font_bolder {

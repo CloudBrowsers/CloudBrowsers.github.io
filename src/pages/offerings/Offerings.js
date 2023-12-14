@@ -79,7 +79,9 @@ const Offerings = () => {
           <li
             onClick={() => handleSelectedTabs(offering)}
             key={offering}
-            className="whitespace-nowrap w-full text-center p-4 cursor-pointer hover:bg-primary-btn-color hover:text-white"
+            className={`whitespace-nowrap w-full text-center p-4 cursor-pointer ${
+              selectedTab === offering && "bg-primary-btn-color text-white"
+            } hover:bg-primary-btn-color hover:text-white`}
           >
             {offering}
           </li>
@@ -122,7 +124,7 @@ const Offerings = () => {
             >
               <source
                 type="video/mp4"
-                src="https://ui-imagefile.s3.amazonaws.com/assets/cloudifytests_video.mp4"
+                src="https://res.cloudinary.com/dsrutn5ee/video/upload/v1700033612/cloudifytests/cloudifytests_video.mp4"
               />
             </video>
           </div>

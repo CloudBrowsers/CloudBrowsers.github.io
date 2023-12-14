@@ -1,5 +1,7 @@
 import React from "react";
 import "./Feature.css";
+import { IoIosGlobe } from "react-icons/io";
+import { FaArrowRightArrowLeft } from "react-icons/fa6";
 import UnlimitedBrowsers from "../../assets/UnlimitedBrowsers.png";
 import SessionRecording from "../../assets/Session-Recording.png";
 
@@ -10,7 +12,7 @@ const arrayOfFeatures = [
     name: "Unlimited Browsers",
     description: "Run as many browsers as your cluster allows",
     hoverImageUrl: UnlimitedBrowsers,
-    imageUrl: SessionRecording,
+    imageUrl: <IoIosGlobe className="h-full w-full img" />,
   },
   {
     id: 2,
@@ -18,51 +20,58 @@ const arrayOfFeatures = [
     name: "on-premise cluster",
     description:
       "Deploy on any on-premise cluster for enhanced control and security",
+    imageUrl: <IoIosGlobe className="h-full w-full img" />,
   },
   {
     id: 3,
     img: "img",
     name: "cross-platform",
     description: "Works across multiple types of browser platform",
+    imageUrl: <IoIosGlobe className="h-full w-full img" />,
   },
   {
     id: 4,
     img: "img",
     name: "cross-platform",
     description: "Works across multiple types of browser platform",
+    imageUrl: <IoIosGlobe className="h-full w-full img" />,
   },
   {
     id: 5,
     img: "img",
     name: "cross-platform",
     description: "Works across multiple types of browser platform",
+    imageUrl: <IoIosGlobe className="h-full w-full img" />,
   },
   {
     id: 6,
     img: "img",
     name: "cross-platform",
     description: "Works across multiple types of browser platform",
+    imageUrl: <IoIosGlobe className="h-full w-full img" />,
   },
   {
     id: 7,
     img: "img",
     name: "cross-platform",
     description: "Works across multiple types of browser platform",
+    imageUrl: <IoIosGlobe className="h-full w-full img" />,
   },
   {
     id: 8,
     img: "img",
     name: "cross-platform",
     description: "Works across multiple types of browser platform",
+    imageUrl: <IoIosGlobe className="h-full w-full img" />,
   },
 ];
 
 const Features = () => {
   return (
-    <div id="Features" className="page_common_container flex flex-col">
+    <div id="Benefits" className="page_common_container flex flex-col">
       <div className="common_container_style flex flex-col">
         <h1 className="flex font_light text-4xl py-16  ">
-          <div className="top_header_text">Features</div>
+          <div className="top_header_text">Benefits</div>
         </h1>
         <div>
           <h3 className="font_semibold text-2xl pb-8">
@@ -79,17 +88,18 @@ const Features = () => {
             {arrayOfFeatures.map((feature) => (
               <div
                 key={feature.id}
-                className="feature_box flex flex-col gap-2 w-[15rem] md:w-[20rem]"
+                className="feature_box flex flex-col gap-2 w-[15rem] md:w-[16rem] cursor-pointer"
               >
                 <div className="text-xl font_bolder h-10 w-10">
-                  <img
+                  {feature.imageUrl}
+                  {/* <img
                     className="h-full w-full img"
                     src={feature.imageUrl}
                     onMouseOver={(e) =>
                       (e.currentTarget.src = feature.hoverImageUrl)
                     }
                     onMouseOut={(e) => (e.currentTarget.src = feature.imageUrl)}
-                  />
+                  /> */}
                 </div>
                 <div className="text-xl font_bolder">{feature.name}</div>
                 <div className="">{feature.description}</div>

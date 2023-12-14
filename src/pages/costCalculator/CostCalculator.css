@@ -1,9 +1,23 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  padding: 0 0.5rem;
+  -moz-appearance: textfield;
+}
+
 .calculator_header {
   border: 1px solid #e1e1e1;
-  padding: 2rem 0rem;
+  padding: 1rem 0rem;
   flex: 1;
   text-align: center;
   cursor: pointer;
+  transition: all 0.5s;
 }
 .number_of_days {
   background: #f6f6f6 0% 0% no-repeat padding-box;
@@ -26,41 +40,52 @@
 
 .count {
   background: #f6f6f6 0% 0% no-repeat padding-box;
-  padding: 1.5rem 2.5rem;
+  padding: 1.5rem 1.5rem;
   margin: 3rem 0rem;
-  width: 49%;
 }
 .cost_per_session {
   background-color: #8993ac;
   color: white;
-  padding: 2.5rem 1rem;
+  padding: 1.5rem 1.5rem;
   width: 100%;
   margin: 2rem 0rem;
 }
 .total_cost {
   background: #f6f6f6 0% 0% no-repeat padding-box;
-  padding: 3.5rem 1rem;
+  padding: 1.5rem 1.5rem;
   width: 100%;
   margin: 2rem 0rem;
 }
 .reset {
   background-color: #dedede;
-  width: 49%;
   text-align: center;
   color: black;
 }
 .get_started {
-  width: 49%;
   text-align: center;
 }
 .selected_tab {
-  background-color: #14295b;
-  padding: 2rem 0rem;
+  background-color: var(--primary-btn-color);
+  padding: 1rem 0rem;
   flex: 1;
   text-align: center;
   color: white;
   cursor: pointer;
+  transition: all 0.5s;
 }
+
+.cost-calculator > .cost-calculator-column {
+  background: #f9f9f9 0% 0% no-repeat padding-box;
+  border: 1px solid #d5d5d5;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.cost-calculator > .cost-calculator-column > .cost-calculator-row {
+  flex: 1;
+  padding: 0 2rem;
+}
+
 @media (max-width: 640px) {
   .number_of_days {
     flex-direction: column;
@@ -73,7 +98,6 @@
   .reset {
     padding: 1rem;
     width: 100%;
-    margin: 1rem 0rem;
   }
   .get_started {
     padding: 1rem;

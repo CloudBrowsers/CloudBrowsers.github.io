@@ -6,13 +6,12 @@ import logo from "../../assets/logo.png";
 const navItemList = [
   "Home",
   "About Us",
-  "Features",
+  "Benefits",
   "Offerings",
-  "Capabilities",
+
   "Usage",
   // "CostCalculation",
-  "User Manual",
-  "ContactUs",
+  "Contact Us",
 ];
 
 const Navbar = () => {

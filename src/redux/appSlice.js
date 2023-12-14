@@ -1,7 +1,10 @@
 const { createSlice } = require("@reduxjs/toolkit");
 
 const initialState = {
-  isSelectedTab: "monthly",
+  isSelectedTab: {
+    name: "monthly",
+    description: "Number of days for which the plan is active are",
+  },
   offeringsSelectedTab: "Dashboard",
 };
 

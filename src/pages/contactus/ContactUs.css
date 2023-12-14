@@ -9,13 +9,19 @@
   width: 45%;
   border-radius: 5px;
 }
+
+.contact_us_section:nth-child(2) {
+  flex: 0.7;
+}
+
 .contact_us_para {
   line-height: 2;
   margin-top: 1rem;
+  padding-right: 8rem;
   opacity: 1;
 }
 .contact_us {
-  background-color: #e1eaf1;
+  background-color: #d7e2eb;
   width: 100%;
   border: 1px solid white;
   border-radius: 5px;
@@ -24,7 +30,7 @@
   font-size: 20px;
 }
 .error_fileds {
-  background-color: #e1eaf1;
+  background-color: #d7e2eb;
   width: 100%;
   border: 1px solid red;
   border-radius: 5px;
@@ -33,7 +39,7 @@
   font-size: 20px;
 }
 .contact_us_data {
-  background-color: #e1eaf1;
+  background-color: #d7e2eb;
   width: 100%;
   border: 1px solid white;
   border-radius: 5px;
@@ -43,7 +49,7 @@
   margin-top: 2rem;
 }
 .error_fileds_contact_us {
-  background-color: #e1eaf1;
+  background-color: #d7e2eb;
   width: 100%;
   border: 1px solid red;
   border-radius: 5px;
@@ -56,7 +62,7 @@
   color: red;
 }
 .error_fileds_data {
-  background-color: #e1eaf1;
+  background-color: #d7e2eb;
   width: 100%;
   border: 1px solid red;
   border-radius: 5px;
@@ -66,7 +72,7 @@
   margin-top: 2rem;
 }
 .contact_us_message_data {
-  background-color: #e1eaf1;
+  background-color: #d7e2eb;
   width: 100%;
   border: 1px solid white;
   border-radius: 5px;
@@ -136,9 +142,6 @@
 .try_for_free:hover {
   background-color: #64be5e;
   opacity: 1;
-}
-.custom_margin {
-  /* margin: 3.5rem 0rem; */
 }
 
 @media (max-width: 640px) {

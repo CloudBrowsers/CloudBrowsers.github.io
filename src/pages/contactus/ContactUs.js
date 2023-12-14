@@ -82,9 +82,9 @@ const ContactUs = () => {
 
   return (
     <>
-      <div id="ContactUs" className="common_container_style conatct_us">
-        <div className="flex justify-space-between sm:justify-between">
-          <div className="contact_us_section">
+      <div id="Contact Us" className="common_container_style conatct_us">
+        <div className="flex gap-5">
+          <div className="contact_us_section flex-1">
             <h1 className="flex font_light text-4xl">
               <div className="top_header_text">
                 Schedule a call with us now!
@@ -92,7 +92,12 @@ const ContactUs = () => {
             </h1>
             <p className="flex flex-col md:flex-row font_light contact_us_para">
               To receive further information, please fill out the form below,
-              and we'll be in touch with you shortly.
+              and we'll be in touch with you shortly. To receive further
+              information, please fill out the form below, and we'll be in touch
+              with you shortly. To receive further information, please fill out
+              the form below, and we'll be in touch with you shortly. To receive
+              further information, please fill out the form below, and we'll be
+              in touch with you shortly.
             </p>
             <div className="submit_btn_container">
               <div
