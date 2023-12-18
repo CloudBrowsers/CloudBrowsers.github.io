@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import "./Navbar.css";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/test.png";
 
 const navItemList = [
   "Home",
@@ -31,7 +31,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar_container bg-white">
+    <div className="navbar_container">
       <div className="navbar_items_container common_container_style">
         <img src={logo} alt="Logo" />
         <ul className="links_container hidden md:flex justify-evenly gap-4">

@@ -82,7 +82,7 @@ const ContactUs = () => {
 
   return (
     <>
-      <div id="Contact Us" className="common_container_style conatct_us">
+      <div id="Contact Us" className="common_container_style conatct_us py-16">
         <div className="flex gap-5">
           <div className="contact_us_section flex-1">
             <h1 className="flex font_light text-4xl">

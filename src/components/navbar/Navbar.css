@@ -1,4 +1,5 @@
 .navbar_container {
+  backdrop-filter: blur(10px);
   position: fixed;
   z-index: 10;
   width: 100%;

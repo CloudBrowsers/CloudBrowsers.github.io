@@ -84,7 +84,7 @@ const CostCalculator = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-2 cost-calculator py-4">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2  gap-2 cost-calculator py-4">
           {/* column 1 */}
           <div className="cost-calculator-column">
             <div className="cost-calculator-row">
